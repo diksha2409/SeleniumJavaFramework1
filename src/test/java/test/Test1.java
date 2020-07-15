@@ -17,7 +17,7 @@ public class Test1 {
 		
 		//Set the chrome browser
 		System.setProperty("webdriver.chrome.driver",projectLocation+"\\drivers\\chromedriver\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.bin", "C:\\Program Files\\Google\\Chrome\\Application");
+		//System.setProperty("webdriver.chrome.bin", "C:\\Program Files\\Google\\Chrome\\Application");
 		WebDriver driver = new ChromeDriver();
 		
 		//set the firefox browser
